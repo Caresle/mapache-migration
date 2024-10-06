@@ -5,4 +5,4 @@ node_modules
 src/migrations/*.js
 !src/migrations/000-migration.js
 pnpm-lock.yaml
-data/
+data

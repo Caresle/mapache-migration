@@ -5,3 +5,8 @@ export const existsMigrationTable = `
         AND table_name = 'migrations'
     )
 `
+
+export const getMigrationsToRollback = `
+    SELECT * FROM migrations order by id desc
+    LIMIT $1
+`
