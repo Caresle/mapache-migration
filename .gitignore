@@ -1,0 +1,4 @@
+node_modules
+.env
+src/migrations/*.js
+!src/migrations/000-migration.js
