@@ -13,3 +13,5 @@ Tiny migration tool for PostgreSQL
 ## Usage
 
 ## License
+
+![](./docs/img/mapache.jpg)
